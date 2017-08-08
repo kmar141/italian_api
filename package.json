@@ -1,0 +1,21 @@
+{
+  "name": "italian_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "build": "cd client && webpack -w"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.4",
+    "mongo": "^0.1.0",
+    "mongodb": "^2.2.30",
+    "nodemon": "^1.11.0"
+  },
+  "devDependencies": {
+    "webpack": "^3.5.1"
+  }
+}
